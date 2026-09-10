@@ -1,0 +1,79 @@
+.signin-card{
+    width: 705px;
+    height: auto;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 36px;
+    border-width: 1px;
+    padding-top: 75px;
+    padding-right: 65px;
+    padding-bottom: 75px;
+    padding-left: 65px;
+    background: #F5F9FF;
+}
+.remind-pass{
+    display: flex;
+    justify-content: space-between;
+}
+.submit-btn{
+    width: 575px;
+    height: auto;
+    min-width: 168px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 40px;
+    background: var(--Primary-Orange, #FF8609);
+    font-family: 'Bricolage Grotesque';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.signin-card .signupifnot p a{
+    font-family: 'Bricolage Grotesque';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--Primary-Blue, #0073F0);
+
+}
+.signin-card .signupifnot p{
+    font-family: 'Bricolage Grotesque';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #344054;
+    margin-top: 24px;
+}
+.signin-card h1{
+    font-family: 'Bricolage Grotesque';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 22px;
+    color: var(--Dark-Grey, #252525);
+}
+.signin-card p{
+    font-family: 'Bricolage Grotesque';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 42px;
+    color: var(--Mid-Grey, #848484);
+}

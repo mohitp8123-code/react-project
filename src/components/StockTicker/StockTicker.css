@@ -1,0 +1,41 @@
+.stockTicker {
+  background: #003b8f;
+  color: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.tickerWrapper {
+  display: flex;
+  width: 100%;
+}
+.stockItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 25px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  white-space: nowrap;
+  
+}
+.symbol {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 13px;
+}
+
+.positive {
+  color: #38d26f;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.negative {
+  color: #ff6b6b;
+  font-size: 12px;
+  font-weight: 600;
+}

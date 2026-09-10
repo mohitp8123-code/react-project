@@ -1,0 +1,139 @@
+.footer{
+    color: white;
+    padding-inline: 165px;
+    padding-top: 104px;
+    padding-bottom: 118px;
+    background: linear-gradient(180deg, #023E8A 50.09%, #0564CC 100%);
+}
+.footer-top{
+    display: flex;
+    gap: 60px;
+}
+.footer-brand img{
+    margin-bottom: 70px;
+    width: 100%;
+}
+.footer-links{
+    display: flex;
+    max-width: 1021px;
+    height: auto;
+    opacity: 1;
+    border-radius: 32px;
+    background: #023E8A4D;
+    width: 100%;
+    border: solid 1px;
+    justify-content: space-between;
+    padding: 44px 54px 47px 59px;
+}
+.footer-brand p{
+    font-family: "Bricolage Grotesque";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 1%;
+    max-width: 508px;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #bcbcbc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-column ul{
+    list-style: none;
+}
+.footer-column a {
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: "Bricolage Grotesque";
+    font-weight: 400;
+    font-style: regular;
+    color: #FFFFFF;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 0%; 
+}
+.footer-column h4{
+    font-family: "Bricolage Grotesque";
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    color: #FF8609;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 100px;
+}
+.footer-bottom p{
+    font-family: "Bricolage Grotesque";
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+@media (max-width:1699px) {
+    .footer{
+        padding-inline: 120px;
+    }   
+}
+@media (max-width:1599px) {
+    .footer {
+        padding-inline: 100px;
+        }
+    .footer-brand p{
+        font-size: 21px;
+        line-height: 1.3em;
+    }
+    
+   
+    
+}
+@media (max-width: 1399px) {
+    .footer{
+        padding-block: 50px;
+    }    
+     .footer-links{
+    padding: 36px 25px;
+    }
+    .footer-bottom{
+        margin-top: 10px;
+    }
+    .footer-brand p {
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+    .footer-column h4{
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    .footer-column a{
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    .social-icons{
+        padding-top: 50px;
+    }
+}
+@media (max-width: 1299px) {
+    .footer {
+        padding-inline: 80px;
+    }
+    .footer-top{
+        gap: 40px;
+    }
+}
+@media (max-width: 1199px){
+    
+}

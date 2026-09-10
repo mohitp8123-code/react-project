@@ -1,0 +1,11 @@
+.Signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 607px;
+    margin-top: 80px;
+    background-image: url('../../assets/Images/Signin/background.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

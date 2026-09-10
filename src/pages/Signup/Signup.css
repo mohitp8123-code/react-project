@@ -1,0 +1,14 @@
+.signup {
+  min-height: calc(100vh - 170px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 180px 20px;
+
+  background-image: url('../../assets/Images/Signup/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}   

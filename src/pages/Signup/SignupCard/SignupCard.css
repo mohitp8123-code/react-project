@@ -1,0 +1,101 @@
+.signup-card {
+  width: 705px;
+  height: auto;
+  opacity: 1;
+  gap: 10px;
+  border-radius: 36px;
+  padding-top: 75px;
+  padding-right: 65px;
+  padding-bottom: 75px;
+  padding-left: 65px;
+  border-width: 1px;
+  background: #f5f9ff;
+  border: 1px solid var(--Light-Grey, #d9d9d9);
+  box-shadow: 0px 6px 21.6px -4px #00000029;
+}
+.signup-card h1 {
+  font-family: "Bricolage Grotesque";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 22px;
+}
+.signup-card .subtitle {
+  font-family: "Bricolage Grotesque";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--Mid-Grey, #848484);
+  margin-bottom: 42px;
+}
+.terms {
+  text-align: left;
+  display: flex;
+  gap: 7px;
+  margin-bottom: 40px;
+}
+.terms label {
+  font-family: "Bricolage Grotesque";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.terms label span {
+  font-family: "Bricolage Grotesque";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #0073f0;
+}
+.signup-btn {
+  width: 100%;
+  height: 52px;
+  min-width: 168px;
+  gap: 10px;
+  opacity: 1;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  border-radius: 40px;
+  background: var(--Primary-Orange, #ff8609);
+  font-family: "Bricolage Grotesque";
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1%;
+  text-align: center;
+  color: #ffffff;
+}
+.signup-btn:active{
+  color: var(--Primary-Orange, #ff8609);
+  background: #ffffff;
+}
+@media (max-width:1599px) {
+    .signup-card{
+      width: 670px;
+      height: 1111px;
+    }
+}
+@media (max-width:1399px) {
+    .signup-card h1{
+      font-size: 36px;
+    }
+    .signup-card{
+      width: 600px;
+      height: auto;
+      padding: 40px;
+    }
+}
