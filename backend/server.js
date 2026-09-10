@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import db from "./db.js";
-import signupRoute from "../routes/Signup.js";
+import signupRoute from "../routes/signup.js";
 
 const app = express();
 
